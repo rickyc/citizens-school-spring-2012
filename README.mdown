@@ -2,3 +2,4 @@ Citizens School 2012
 ===
     Lesson 1 - What is HTML?
     Lesson 2 - Why is my site so ugly?
+    Lesson 3 - Let's add some Images!
