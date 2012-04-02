@@ -1,0 +1,315 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Citizens-school-spring-2012 by rickyc</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Citizens-school-spring-2012</h1>
+<p>Citizens School Spring 2012: Girl Coders Apprenticeship [Keynotes + Supporting Documents]</p>
+        <p class="view"><a href="https://github.com/rickyc/citizens-school-spring-2012">View the Project on GitHub <small>rickyc/citizens-school-spring-2012</small></a></p>
+        <ul>
+          <li><a href="https://github.com/rickyc/citizens-school-spring-2012/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/rickyc/citizens-school-spring-2012/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/rickyc/citizens-school-spring-2012">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>Citizens School 2012</h1>
+
+<pre><code>Lesson 1 - What is HTML?
+Lesson 2 - Why is my site so ugly?
+Lesson 3 - Let's add some images!
+Lesson 4 - Links
+Lesson 5 - Embedding Videos
+Lesson 6 - Colors
+</code></pre>
+
+<h2>HTML Tags Reference</h2>
+
+<h3>&lt;html&gt;</h3>
+
+<p><strong>Description:</strong></p>
+
+<p>tag that tells the computer that this is an html file, minimal required tag to create a webpage</p>
+
+<p><strong>Usage:</strong></p>
+
+<div class="highlight">
+<pre><span class="nt">&lt;html&gt;</span>Hello!<span class="nt">&lt;/html&gt;</span>
+</pre>
+</div>
+
+
+<hr><h3>&lt;head&gt;</h3>
+
+<p><strong>Description:</strong></p>
+
+<p>the head contains elements such at the title, the favicon, stylesheets, etc. 
+remember, anything in the head will not show up in the content of the webpage</p>
+
+<p><strong>Usage:</strong></p>
+
+<div class="highlight">
+<pre><span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;title&gt;</span>Webpage title<span class="nt">&lt;/title&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</pre>
+</div>
+
+
+<hr><h3>&lt;body&gt;</h3>
+
+<p><strong>Description:</strong></p>
+
+<p>you can think of the  body as the meat of the webpage. you would place all your content here.</p>
+
+<p><strong>Usage:</strong></p>
+
+<div class="highlight">
+<pre><span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;title&gt;</span>Webpage title<span class="nt">&lt;/title&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    This is the body! I would write my bold tags and underline tags and place my images here.
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</pre>
+</div>
+
+
+<hr><h3>&lt;b&gt;</h3>
+
+<p><strong>Description:</strong></p>
+
+<p>bolds the text</p>
+
+<p><strong>Usage:</strong></p>
+
+<div class="highlight">
+<pre><span class="nt">&lt;b&gt;</span>Bold!<span class="nt">&lt;/b&gt;</span>
+</pre>
+</div>
+
+
+<hr><h3>&lt;i&gt;</h3>
+
+<p><strong>Description:</strong></p>
+
+<p>italicizes the text</p>
+
+<p><strong>Usage:</strong></p>
+
+<div class="highlight">
+<pre><span class="nt">&lt;i&gt;</span>Italics!<span class="nt">&lt;/i&gt;</span>
+</pre>
+</div>
+
+
+<hr><h3>&lt;u&gt;</h3>
+
+<p><strong>Description:</strong></p>
+
+<p>underlines the text</p>
+
+<p><strong>Usage:</strong></p>
+
+<div class="highlight">
+<pre><span class="nt">&lt;u&gt;</span>Underline!<span class="nt">&lt;/u&gt;</span>
+</pre>
+</div>
+
+
+<hr><h3>&lt;marquee&gt;</h3>
+
+<p><strong>Description:</strong></p>
+
+<p>scrolls text from the right side of the screen to the left</p>
+
+<p><strong>Usage:</strong></p>
+
+<div class="highlight">
+<pre><span class="nt">&lt;marquee&gt;</span>Watch me move across the screen!<span class="nt">&lt;/marquee&gt;</span>
+</pre>
+</div>
+
+
+<hr><h3>&lt;br&gt;</h3>
+
+<p><strong>Description:</strong></p>
+
+<p>the line break tag creates a new line</p>
+
+<p><strong>Usage:</strong></p>
+
+<div class="highlight">
+<pre><span class="nt">&lt;br/&gt;</span> <span class="c">&lt;!-- or &lt;br&gt;&lt;/br&gt; --&gt;</span>
+</pre>
+</div>
+
+
+<p><strong>Example:</strong>
+Without the &lt;br&gt; tag, if you had the following code.</p>
+
+<div class="highlight">
+<pre><span class="nt">&lt;b&gt;</span>Hello.<span class="nt">&lt;/b&gt;&lt;i&gt;</span>How are you?<span class="nt">&lt;/i&gt;</span>
+</pre>
+</div>
+
+
+<p>It would look like this.</p>
+
+<p><strong>Hello.</strong> <em>How are you?</em></p>
+
+<p>With the break tag.</p>
+
+<div class="highlight">
+<pre><span class="nt">&lt;b&gt;</span>Hello.<span class="nt">&lt;/b&gt;&lt;br/&gt;&lt;i&gt;</span>How are you?<span class="nt">&lt;/i&gt;</span>
+</pre>
+</div>
+
+
+<p>It would look like this</p>
+
+<p><strong>Hello.</strong><br><em>How are you?</em></p>
+
+<hr><h3>&lt;hr&gt;</h3>
+
+<p><strong>Description:</strong></p>
+
+<p>creates a horizontal line</p>
+
+<p><strong>Usage:</strong></p>
+
+<div class="highlight">
+<pre><span class="nt">&lt;hr/&gt;</span>
+</pre>
+</div>
+
+
+<hr><h3>&lt;div&gt;</h3>
+
+<p><strong>Description:</strong></p>
+
+<p>the div tag divides or separates out content. you can think of using this to group things together.</p>
+
+<p><strong>Usage:</strong></p>
+
+<div class="highlight">
+<pre><span class="nt">&lt;div&gt;</span>
+  <span class="nt">&lt;b&gt;</span>Name: John<span class="nt">&lt;/b&gt;</span>
+  <span class="nt">&lt;i&gt;</span>Favorite Color: Teal<span class="nt">&lt;/i&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div&gt;</span>
+  <span class="nt">&lt;b&gt;</span>Name: Sally<span class="nt">&lt;/b&gt;</span>
+  <span class="nt">&lt;i&gt;</span>Favorite Color: Magenta<span class="nt">&lt;/i&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre>
+</div>
+
+
+<hr><h3>&lt;p&gt;</h3>
+
+<p><strong>Description:</strong></p>
+
+<p>paragraph tag</p>
+
+<p><strong>Usage:</strong></p>
+
+<div class="highlight">
+<pre><span class="nt">&lt;p&gt;</span>Marshmallow toffee muffin cotton candy chocolate bar jelly chocolate cake. Gummies carrot cake soufflé chupa chups sweet roll candy. Pudding liquorice ice cream. Fruitcake fruitcake gummi bears dragée pudding pastry ice cream oat cake ice cream. Wypas carrot cake sesame snaps. Cake toffee marzipan croissant candy canes marzipan wafer. Cake marzipan ice cream dessert brownie bonbon wypas. Jelly-o oat cake bear claw. Biscuit muffin cupcake cake jelly beans icing chocolate bar. Croissant soufflé gummi bears applicake donut ice cream halvah jelly-o. Fruitcake oat cake powder chocolate wypas cupcake. Sweet bear claw candy canes. Jujubes brownie applicake.<span class="nt">&lt;/p&gt;</span>
+</pre>
+</div>
+
+
+<hr><h3>&lt;center&gt;</h3>
+
+<p><strong>Description:</strong></p>
+
+<p>centers text</p>
+
+<p><strong>Usage:</strong></p>
+
+<div class="highlight">
+<pre><span class="nt">&lt;center&gt;</span>Centers Something<span class="nt">&lt;/center&gt;</span>
+</pre>
+</div>
+
+
+<hr><h3>&lt;img&gt;</h3>
+
+<p><strong>Description:</strong></p>
+
+<p>image tag, used to display images onto the webpage</p>
+
+<p><strong>Usage:</strong></p>
+
+<div class="highlight">
+<pre><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">'<a href="http://citizenschools.wpengine.netdna-cdn.com/wp-content/themes/citizenschools/images/citizen-schools-logo.gif">http://citizenschools.wpengine.netdna-cdn.com/wp-content/themes/citizenschools/images/citizen-schools-logo.gif</a>'</span><span class="nt">/&gt;</span>
+</pre>
+</div>
+
+
+<hr><h3>&lt;a&gt;</h3>
+
+<p><strong>Description:</strong></p>
+
+<p>link tag, used to link other webpages</p>
+
+<p><strong>Usage:</strong></p>
+
+<div class="highlight">
+<pre><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">'<a href="http://google.com">http://google.com</a>'</span><span class="nt">&gt;</span>Click here to go to google!<span class="nt">&lt;/a&gt;</span>
+</pre>
+</div>
+
+
+<hr><h2>Styles</h2>
+
+<h3>&lt;span style='color:green'&gt;Hi there!&lt;/span&gt;</h3>
+
+<p><strong>Description:</strong></p>
+
+<p>styles the text and makes the font color green</p>
+
+<hr><h3>&lt;span style='font-family:arial'&gt;The sky is blue!&lt;/span&gt;</h3>
+
+<p><strong>Description:</strong></p>
+
+<p>styles the text and changes the font to Arial</p>
+
+<hr><h3>&lt;div style='background-color:yellow'&gt;This text is highlighted!&lt;/span&gt;</h3>
+
+<p><strong>Description:</strong></p>
+
+<p>styles the text and changes the background color of the text to yellow</p>
+
+<hr><h3>&lt;img style='width:100px; height:120px' src='image.jpg'/&gt;</h3>
+
+<p><strong>Description:</strong></p>
+
+<p>displays an image, but resizes the image to a width of 100 pixels and a height of 120 pixels</p>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/rickyc">rickyc</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+  </body>
+</html>
