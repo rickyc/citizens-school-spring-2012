@@ -5,7 +5,7 @@ Citizens School 2012
     Lesson 3 - Let's add some images!
     Lesson 4 - Links
     Lesson 5 - Embedding Videos
-    Lesson 6 - Colors
+    Lesson 6 - Colors / Styling
 
 HTML Tags Reference
 ---
