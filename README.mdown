@@ -5,11 +5,12 @@ Citizens School 2012
     Lesson 3 - Let's add some images!
     Lesson 4 - Links
     Lesson 5 - Embedding Videos
+    Lesson 6 - Colors
 
 HTML Tags Reference
 ---
 
-### \<html\> ###
+### \<html\>
 **Description:**
 
 tag that tells the computer that this is an html file, minimal required tag to create a webpage
@@ -22,7 +23,7 @@ tag that tells the computer that this is an html file, minimal required tag to c
 
 ---
 
-###\<head\>
+### \<head\>
 **Description:**
 
 the head contains elements such at the title, the favicon, stylesheets, etc. 
@@ -40,7 +41,7 @@ remember, anything in the head will not show up in the content of the webpage
 
 ---
 
-###\<body\>
+### \<body\>
 **Description:**
 
 you can think of the  body as the meat of the webpage. you would place all your content here.
@@ -60,7 +61,7 @@ you can think of the  body as the meat of the webpage. you would place all your 
 
 ---
 
-###\<b\>
+### \<b\>
 **Description:**
 
 bolds the text
@@ -73,7 +74,7 @@ bolds the text
 
 ---
 
-###\<i\>
+### \<i\>
 **Description:**
 
 italicizes the text
@@ -86,7 +87,7 @@ italicizes the text
 
 ---
 
-###\<u\>
+### \<u\>
 **Description:**
 
 underlines the text
@@ -99,7 +100,7 @@ underlines the text
 
 ---
 
-###\<marquee\>
+### \<marquee\>
 **Description:**
 
 scrolls text from the right side of the screen to the left
@@ -112,7 +113,7 @@ scrolls text from the right side of the screen to the left
 
 ---
 
-###\<br\>
+### \<br\>
 **Description:**
 
 the line break tag creates a new line
@@ -147,7 +148,7 @@ It would look like this
 
 ---
 
-###\<hr\>
+### \<hr\>
 **Description:**
 
 creates a horizontal line
@@ -160,7 +161,7 @@ creates a horizontal line
 
 ---
 
-###\<div\>
+### \<div\>
 **Description:**
 
 the div tag divides or separates out content. you can think of using this to group things together.
@@ -180,7 +181,7 @@ the div tag divides or separates out content. you can think of using this to gro
 
 ---
 
-###\<p\>
+### \<p\>
 **Description:**
 
 paragraph tag
@@ -193,7 +194,7 @@ paragraph tag
 
 ---
 
-###\<center\>
+### \<center\>
 **Description:**
 
 centers text
@@ -206,7 +207,7 @@ centers text
 
 ---
 
-###\<img\>
+### \<img\>
 **Description:**
 
 image tag, used to display images onto the webpage
@@ -219,7 +220,7 @@ image tag, used to display images onto the webpage
 
 ---
 
-###\<a\>
+### \<a\>
 **Description:**
 
 link tag, used to link other webpages
@@ -228,3 +229,35 @@ link tag, used to link other webpages
 
 ```html
 <a href='http://google.com'>Click here to go to google!</a>
+```
+
+---
+
+## Styles
+
+### \<span style='color:green'>Hi there!\</span>
+**Description:**
+
+styles the text and makes the font color green
+
+---
+
+### \<span style='font-family:arial'>The sky is blue!\</span>
+**Description:**
+
+styles the text and changes the font to Arial
+
+---
+
+### \<div style='background-color:yellow'>This text is highlighted!\</span>
+**Description:**
+
+styles the text and changes the background color of the text to yellow
+
+---
+
+### \<img style='width:100px; height:120px' src='image.jpg'/>
+**Description:**
+
+displays an image, but resizes the image to a width of 100 pixels and a height of 120 pixels
+
