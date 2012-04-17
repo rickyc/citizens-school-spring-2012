@@ -6,6 +6,7 @@ Citizens School 2012
     Lesson 4 - Links
     Lesson 5 - Embedding Videos
     Lesson 6 - Colors
+    Lesson 7 - Review Game
 
 HTML Tags Reference
 ---

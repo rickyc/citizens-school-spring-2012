@@ -1,0 +1,27 @@
+Station 5 - Game
+Timer
+Highscores
+HTML5
+
+Intro Concepts (Try to tie in every lesson)
+
+Ideas
+- Show a bunch of random tags on the screen, allow the girls to click on the tags. By clicking on it, they have to identify which one most accurate describes the tag.
+
+- Q/A format. Basically show a tag with a timer and they have to answer it within the allotted time. Have buttons for them to click
+
+- Show a picture of a site with hotspots / zones that they can click. Find a link, the girls will have to click on the link, etc.
+
+- Madlib fill in style. Drag n drop perhaps? Render on the fly… fill in all the tags and move on to the next phase.
+
+- Codeacademy Style. Make this font red. Write color. Evaluate. Have a text area for them to write in the answer, etc.
+
+- Write HTML code from scratch.
+
+- Drag + Drop?
+
+- Jeopardy Style / Multiple Choice
+
+- Learning Game - if incorrect show / try to render incorrect result and display tooltips as to why it was incorrect
+
+- HEX Game, let the girls write and make six hex codes. Try to match it with physical colors.

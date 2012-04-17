@@ -1,0 +1,31 @@
+Index Cards:
+
+  <html> </html>
+  
+  <head> </head>
+  
+  <title> </title>
+  
+  <body> </body>
+  
+  <center> </center>
+  
+  <h1> </h1>
+  
+  <p> </p>
+  
+  <img>
+  
+  <a>
+
+  <marquee> </marquee>
+  
+  <i> </i>
+  
+  <b> </b>
+  
+  "style"
+  
+  "src"
+  
+  "href"
